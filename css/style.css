@@ -1,0 +1,179 @@
+body {
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+    background-color: rgb(56, 56, 56);
+}
+
+/*CABEÇALHO*/
+
+header {
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    justify-content: center;
+}
+
+/*SESSÕES*/
+
+.logo h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.logo span {
+    color: rgb(59, 190, 76);
+}
+
+.session-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.titulo-div1 h3 {
+    color: white;
+    font-weight: normal;
+}
+
+.titulo-div1 h1 {
+    color: white;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: -16px;
+}
+
+.titulo-div1 a {
+    display: inline-block;
+    background-color: rgb(59, 190, 76);
+    padding: 15px 60px;
+    color: white;
+    font-size: 20px;
+    margin-left: 60px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.titulo-div1 a:hover {
+    background-color: rgb(36, 105, 46);
+    transition: 0.3s all;
+}
+
+.image-1 img {
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 55px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/*AREA DOS CARDS*/
+
+.session-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.session-2 h2 {
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    background-color: rgb(59, 190, 76);
+    width: 140px;
+    height: 110px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 5px;
+}
+
+.card:hover {
+    background-color: rgb(36, 105, 46);
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.card img {
+    width: 65px;
+}
+
+/*AREA DO FORMULÁRIO*/
+
+.area-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.area-form h2 {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.form {
+    width: 300px;
+    height: 180px;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    margin-top: 10px;
+    height: 45px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Oswald';
+}
+
+input::placeholder {
+    color: black;
+    text-transform: uppercase;
+}
+
+input[type="submit"] {
+    background-color: rgb(59, 190, 76);
+    font-size: 15px;
+    color: white;
+    height: 55px;
+}
+
+/*RODAPÉ*/
+
+footer {
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social img {
+    width: 35px;
+    margin-left: 15px;
+}
